@@ -1,33 +1,33 @@
 {
-  "name": "view-engine-handlebars",
-  "description": "Handlebars view engine",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/patrick-steele-idem/view-engine-handlebars.git"
-  },
-  "main": "lib/view-engine-handlebars.js",
-  "scripts": {
-    "test": "node_modules/.bin/mocha --ui bdd --reporter spec ./test && node_modules/.bin/jshint lib/"
-  },
-  "keywords": [
-    "view-engine",
-    "handlebars"
-  ],
-  "devDependencies": {
-    "chai": "~1.8.1",
-    "handlebars": "^2.0.0",
-    "jshint": "^2.5.5",
-    "mocha": "~1.15.1",
-    "view-engine": "^0.1.9-beta"
-  },
-  "author": "Patrick Steele-Idem <pnidem@gmail.com>",
-  "license": "Apache License v2.0",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
-  "dependencies": {},
-  "browser": {
-    "./lib/loader.js": "./lib/loader-browser.js"
-  },
-  "version": "1.0.0-beta"
+    "name": "view-engine-handlebars",
+    "description": "Handlebars view engine",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/patrick-steele-idem/view-engine-handlebars.git"
+    },
+    "main": "lib/view-engine-handlebars.js",
+    "scripts": {
+        "test": "node_modules/.bin/mocha --ui bdd --reporter spec ./test && node_modules/.bin/jshint lib/"
+    },
+    "keywords": [
+        "view-engine",
+        "handlebars"
+    ],
+    "devDependencies": {
+        "chai": "~1.8.1",
+        "handlebars": "^2.0.0",
+        "jshint": "^2.5.5",
+        "mocha": "~1.15.1",
+        "view-engine": "^0.1.9-beta"
+    },
+    "author": "Patrick Steele-Idem <pnidem@gmail.com>",
+    "license": "Apache License v2.0",
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/"
+    },
+    "dependencies": {},
+    "browser": {
+        "./lib/loader.js": "./lib/loader-browser.js"
+    },
+    "version": "1.0.1-beta"
 }
